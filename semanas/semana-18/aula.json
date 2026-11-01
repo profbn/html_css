@@ -1,5 +1,24 @@
 {
-  "titulo": "Posicionamento",
-  "objetivo": "Diferenciar static, relative, absolute e fixed.",
-  "atividade": "Mova um selo dentro de um cartão e explique position: relative."
+  "titulo": "Posicionamento de elementos",
+  "objetivo": "Aprender posicionamento de elementos e aplicar o conhecimento em uma página web.",
+  "explicacao": "Position static, relative, absolute e fixed mudam como elementos são posicionados. Absolute utiliza um ancestral posicionado como referência.",
+  "orientacao": "Crie uma etiqueta posicionada dentro de um cartão relative.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Crie uma etiqueta posicionada dentro de um cartão relative.",
+  "desafio": "Monte um aviso de destaque com selo em um canto, sem encobrir o conteúdo.",
+  "criterios": [
+    "Elementos não se sobrepõem",
+    "Posicionamento faz sentido em celular",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de posicionamento de elementos?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "titulo": "Formatação semântica HTML5",
-  "objetivo": "Usar marcação, inserção, exclusão e subscrito/sobrescrito.",
-  "atividade": "Escreva cinco frases usando elementos de ênfase distintos."
+  "objetivo": "Aprender formatação semântica html5 e aplicar o conhecimento em uma página web.",
+  "explicacao": "Elementos como mark, small, del, ins, sub e sup exprimem sentidos específicos. Use CSS para escolhas puramente visuais.",
+  "orientacao": "Teste destaques, informação excluída e texto sobrescrito.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Teste destaques, informação excluída e texto sobrescrito.",
+  "desafio": "Crie uma ficha de revisão mostrando correções em frases, fórmulas e observações.",
+  "criterios": [
+    "Escolher tags pelo significado",
+    "Conteúdo permanece compreensível",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de formatação semântica html5?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

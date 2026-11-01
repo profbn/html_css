@@ -1,5 +1,24 @@
 {
   "titulo": "Fontes e textos",
-  "objetivo": "Controlar font-family, font-size, weight e alinhamento.",
-  "atividade": "Crie um título, subtítulo e texto com hierarquia visual."
+  "objetivo": "Aprender fontes e textos e aplicar o conhecimento em uma página web.",
+  "explicacao": "Font-family, font-size, font-weight, line-height e text-align controlam leitura e hierarquia visual. Valores em rem favorecem consistência.",
+  "orientacao": "Defina fontes e tamanhos para títulos e parágrafos.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Defina fontes e tamanhos para títulos e parágrafos.",
+  "desafio": "Crie um artigo com hierarquia tipográfica e regras diferentes para título, subtítulo e corpo.",
+  "criterios": [
+    "Fonte legível em celular",
+    "Hierarquia de títulos",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de fontes e textos?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

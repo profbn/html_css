@@ -1,5 +1,24 @@
 {
-  "titulo": "Internet e primeiros passos",
-  "objetivo": "Entender a diferença entre Internet, Web, navegador e servidor.",
-  "atividade": "Crie uma página que explique Internet e Web."
+  "titulo": "Internet, Web e ferramentas",
+  "objetivo": "Aprender internet, web e ferramentas e aplicar o conhecimento em uma página web.",
+  "explicacao": "Internet é a rede de dispositivos conectados. A Web é um serviço que permite acessar páginas por links e endereços. Navegadores exibem documentos; servidores disponibilizam recursos.",
+  "orientacao": "Instalar ou abrir o editor, criar uma pasta e preparar o navegador.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Instalar ou abrir o editor, criar uma pasta e preparar o navegador.",
+  "desafio": "Construa uma página de boas-vindas com título, explicação da Internet, diferença entre HTTP e HTTPS e link de estudo.",
+  "criterios": [
+    "Explicar Internet e Web",
+    "Abrir a página no navegador",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de internet, web e ferramentas?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

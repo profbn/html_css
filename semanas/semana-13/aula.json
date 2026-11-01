@@ -1,5 +1,24 @@
 {
   "titulo": "Cores e fundos",
-  "objetivo": "Aplicar cores e imagens de fundo de maneira legível.",
-  "atividade": "Experimente três combinações com bom contraste."
+  "objetivo": "Aprender cores e fundos e aplicar o conhecimento em uma página web.",
+  "explicacao": "Background-color e background-image personalizam áreas da página. Gradientes são úteis, mas o texto deve ter contraste adequado com o fundo.",
+  "orientacao": "Crie duas seções com fundos diferentes no style.css.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Crie duas seções com fundos diferentes no style.css.",
+  "desafio": "Faça um banner de campanha educativa com gradiente e texto legível.",
+  "criterios": [
+    "Texto com contraste forte",
+    "Fundo não esconde conteúdo",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de cores e fundos?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

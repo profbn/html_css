@@ -1,5 +1,24 @@
 {
-  "titulo": "HTML5 semântico",
-  "objetivo": "Usar header, nav, main, article, aside e footer.",
-  "atividade": "Substitua divs genéricas por elementos semânticos adequados."
+  "titulo": "HTML5 e semântica",
+  "objetivo": "Aprender html5 e semântica e aplicar o conhecimento em uma página web.",
+  "explicacao": "HTML5 oferece elementos como header, nav, main, article, section, aside e footer. Eles mostram o papel de cada parte da página.",
+  "orientacao": "Estruture um site de notícias com header, nav, main e footer.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Estruture um site de notícias com header, nav, main e footer.",
+  "desafio": "Transforme uma página simples em um portal de notícias com duas matérias e menu.",
+  "criterios": [
+    "Apenas um main por página",
+    "Seções com títulos claros",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de html5 e semântica?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

@@ -1,5 +1,24 @@
 {
-  "titulo": "Formulários",
-  "objetivo": "Associar rótulos a campos de entrada e usar validação básica.",
-  "atividade": "Crie um formulário de inscrição fictício sem coletar dados reais."
+  "titulo": "Formulários HTML",
+  "objetivo": "Aprender formulários html e aplicar o conhecimento em uma página web.",
+  "explicacao": "Formulários recebem informações com campos input, select e textarea. Rótulos label facilitam a compreensão e o uso por teclado.",
+  "orientacao": "Experimente label, input, select, textarea e button com tipos adequados.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Experimente label, input, select, textarea e button com tipos adequados.",
+  "desafio": "Crie uma inscrição fictícia para um evento, com validação required e sem enviar dados reais.",
+  "criterios": [
+    "Todos os campos têm rótulo",
+    "Campos obrigatórios definidos",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de formulários html?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

@@ -1,5 +1,24 @@
 {
   "titulo": "Classes, IDs e bordas",
-  "objetivo": "Diferenciar seletores de classe e ID e aplicar bordas.",
-  "atividade": "Monte três cartões usando a mesma classe."
+  "objetivo": "Aprender classes, ids e bordas e aplicar o conhecimento em uma página web.",
+  "explicacao": "Classes podem ser reutilizadas; IDs identificam um elemento específico. Bordas e border-radius ajudam a diferenciar componentes.",
+  "orientacao": "Crie dois cartões com a mesma class e um título com id.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Crie dois cartões com a mesma class e um título com id.",
+  "desafio": "Construa uma seção com três avisos reutilizando classes e personalizando bordas.",
+  "criterios": [
+    "Classes reutilizadas",
+    "IDs sem repetição",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de classes, ids e bordas?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

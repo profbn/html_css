@@ -1,5 +1,24 @@
 {
-  "titulo": "Box Model",
-  "objetivo": "Compreender content, padding, border e margin.",
-  "atividade": "Altere margens e preenchimentos e compare o espaço ocupado."
+  "titulo": "Box Model e espaçamentos",
+  "objetivo": "Aprender box model e espaçamentos e aplicar o conhecimento em uma página web.",
+  "explicacao": "Cada elemento ocupa uma caixa composta por conteúdo, padding, border e margin. Box-sizing border-box simplifica o cálculo de largura.",
+  "orientacao": "Compare duas caixas com paddings e margens diferentes.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Compare duas caixas com paddings e margens diferentes.",
+  "desafio": "Monte três cartões com espaçamentos consistentes e explique a diferença entre margin e padding.",
+  "criterios": [
+    "Usar box-sizing",
+    "Espaçamento sem sobreposição",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de box model e espaçamentos?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

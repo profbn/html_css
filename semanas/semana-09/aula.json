@@ -1,5 +1,24 @@
 {
   "titulo": "Tabelas acessíveis",
-  "objetivo": "Separar cabeçalho, corpo, rodapé e associar colunas.",
-  "atividade": "Faça tabela de notas fictícias com caption e scope."
+  "objetivo": "Aprender tabelas acessíveis e aplicar o conhecimento em uma página web.",
+  "explicacao": "Thead, tbody e tfoot dividem regiões da tabela. O atributo scope em th ajuda a identificar a relação entre cabeçalho e célula.",
+  "orientacao": "Monte tabela com caption, thead, tbody, tfoot e th scope.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Monte tabela com caption, thead, tbody, tfoot e th scope.",
+  "desafio": "Crie um quadro de notas fictícias com cabeçalhos acessíveis, totais e legenda.",
+  "criterios": [
+    "Cabeçalhos com scope",
+    "Dados organizados sem confusão",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de tabelas acessíveis?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

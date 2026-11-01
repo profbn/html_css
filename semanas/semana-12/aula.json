@@ -1,5 +1,24 @@
 {
-  "titulo": "Introdução ao CSS",
-  "objetivo": "Entender seletor, propriedade, valor e CSS interno/externo.",
-  "atividade": "Separe os estilos em um arquivo style.css."
+  "titulo": "Introdução ao CSS3",
+  "objetivo": "Aprender introdução ao css3 e aplicar o conhecimento em uma página web.",
+  "explicacao": "CSS define a aparência dos elementos HTML por seletores, propriedades e valores. Em projetos, mantenha os estilos no arquivo style.css, ligado com link rel=stylesheet.",
+  "orientacao": "Localize seletores, declaração, propriedade e valor; edite style.css.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Localize seletores, declaração, propriedade e valor; edite style.css.",
+  "desafio": "Estilize uma apresentação pessoal alterando cor de título, fundo e tamanho do texto sem usar style embutido.",
+  "criterios": [
+    "HTML e CSS separados",
+    "Seletores e valores válidos",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de introdução ao css3?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

@@ -7,6 +7,10 @@
 **Instituição:** EEEP Professor Antônio Valmir da Silva — Ceará
 
 
+## 🌐 Portal de estudos Mostra Web 2026
+
+**[Entrar no portal de estudos, com todas as atividades e desafios](./projeto-final/#aulas)**
+
 ## 📚 Aulas práticas em HTML
 
 **[Abrir o índice das 20 semanas](./index.html)** · **[Ver arquivos das semanas](./semanas/)**

@@ -1,5 +1,24 @@
 {
   "titulo": "Links e pseudoclasses",
-  "objetivo": "Usar :link, :visited, :hover e :active.",
-  "atividade": "Crie três links com estilos visuais e foco visível."
+  "objetivo": "Aprender links e pseudoclasses e aplicar o conhecimento em uma página web.",
+  "explicacao": "Pseudoclasses como :hover, :active, :visited e :focus-visible permitem estilos conforme a interação. O foco deve ficar visível para navegação por teclado.",
+  "orientacao": "Configure estilos dos links para hover e focus-visible.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Configure estilos dos links para hover e focus-visible.",
+  "desafio": "Monte um menu com quatro links e estados visuais distinguíveis para mouse e teclado.",
+  "criterios": [
+    "Foco visível",
+    "Links funcionam",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de links e pseudoclasses?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

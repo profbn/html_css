@@ -1,5 +1,24 @@
 {
-  "titulo": "Campos modernos HTML5",
-  "objetivo": "Aplicar email, number, date, tel, url e file.",
-  "atividade": "Monte um formulário fictício que valide um e-mail e uma idade."
+  "titulo": "Novos campos de formulário",
+  "objetivo": "Aprender novos campos de formulário e aplicar o conhecimento em uma página web.",
+  "explicacao": "Tipos email, url, date, number, search e tel oferecem interfaces e validações próprias. Type não substitui validação em sistemas reais.",
+  "orientacao": "Crie campos com type=email, number e date e limites min/max.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Crie campos com type=email, number e date e limites min/max.",
+  "desafio": "Elabore um formulário fictício de pesquisa com cinco tipos de campo e labels.",
+  "criterios": [
+    "Usar tipos adequados",
+    "Não solicitar dados pessoais reais",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de novos campos de formulário?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

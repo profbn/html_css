@@ -1,5 +1,24 @@
 {
   "titulo": "Áudio, vídeo e figuras",
-  "objetivo": "Identificar media, sources, controls, figure e figcaption.",
-  "atividade": "Acrescente um arquivo local de áudio ou vídeo autorizado."
+  "objetivo": "Aprender áudio, vídeo e figuras e aplicar o conhecimento em uma página web.",
+  "explicacao": "HTML5 pode apresentar mídia com audio, video e controls. Figure e figcaption associam imagem e legenda. Arquivos de vídeo precisam estar acessíveis.",
+  "orientacao": "Experimente figure, figcaption e video controls com arquivo autorizado.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Experimente figure, figcaption e video controls com arquivo autorizado.",
+  "desafio": "Crie uma galeria temática com imagens, legendas e uma mídia local opcional.",
+  "criterios": [
+    "Mídias têm controles",
+    "Imagens com descrições",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de áudio, vídeo e figuras?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

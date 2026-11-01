@@ -1,5 +1,24 @@
 {
-  "titulo": "Textos e imagens",
-  "objetivo": "Formatar textos com significado e descrever imagens.",
-  "atividade": "Acrescente uma imagem própria e escreva seu texto alternativo."
+  "titulo": "Textos, imagens e atributos",
+  "objetivo": "Aprender textos, imagens e atributos e aplicar o conhecimento em uma página web.",
+  "explicacao": "Elementos como strong e em dão significado ao texto. Imagens são inseridas com img e precisam de alt adequado quando transmitem informações.",
+  "orientacao": "Experimente strong, em, code e um img usando imagem autorizada.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Experimente strong, em, code e um img usando imagem autorizada.",
+  "desafio": "Monte uma pequena notícia com imagem de sua autoria, legenda e descrição alternativa.",
+  "criterios": [
+    "Usar alt informativo",
+    "Evitar imagens sem autorização",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de textos, imagens e atributos?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

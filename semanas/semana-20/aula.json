@@ -1,5 +1,24 @@
 {
-  "titulo": "Projeto final: landing page",
-  "objetivo": "Integrar HTML semântico, CSS, navegação e layout Flexbox.",
-  "atividade": "Personalize a landing page e publique os arquivos no seu GitHub."
+  "titulo": "Landing page e publicação",
+  "objetivo": "Aprender landing page e publicação e aplicar o conhecimento em uma página web.",
+  "explicacao": "Uma landing page reúne título, apresentação, navegação, benefícios e chamada para ação. O GitHub Pages publica HTML e CSS estáticos em um endereço público.",
+  "orientacao": "Reúna o conteúdo das semanas em um site com menu, seções e CSS externo.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Reúna o conteúdo das semanas em um site com menu, seções e CSS externo.",
+  "desafio": "Crie sua landing page original, teste acessibilidade e responsividade, publique no GitHub Pages e entregue os links.",
+  "criterios": [
+    "Repositório e site públicos",
+    "Conteúdo original e layout responsivo",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de landing page e publicação?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

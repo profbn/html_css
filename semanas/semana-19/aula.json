@@ -1,5 +1,24 @@
 {
   "titulo": "Display e Flexbox",
-  "objetivo": "Distribuir elementos com display:flex, gap e justify-content.",
-  "atividade": "Crie uma fila de cartões que se ajuste em telas menores."
+  "objetivo": "Aprender display e flexbox e aplicar o conhecimento em uma página web.",
+  "explicacao": "Display determina como o elemento ocupa espaço. Flexbox organiza itens em linha ou coluna usando gap, justify-content, align-items, direction e wrap.",
+  "orientacao": "Transforme um grupo de blocos em layout flexível com flex-wrap.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Transforme um grupo de blocos em layout flexível com flex-wrap.",
+  "desafio": "Crie uma galeria de seis cartões que mude a disposição no celular.",
+  "criterios": [
+    "Itens se ajustam à tela",
+    "Gap e alinhamento consistentes",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de display e flexbox?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

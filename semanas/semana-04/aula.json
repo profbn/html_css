@@ -1,5 +1,24 @@
 {
   "titulo": "Listas, links e agrupamentos",
-  "objetivo": "Organizar informações e criar navegação.",
-  "atividade": "Monte um menu de três links e uma lista de materiais."
+  "objetivo": "Aprender listas, links e agrupamentos e aplicar o conhecimento em uma página web.",
+  "explicacao": "Listas ul e ol organizam itens. Links a conectam páginas e partes do documento; div e span agrupam conteúdo sem acrescentar significado semântico.",
+  "orientacao": "Crie uma lista ordenada, uma não ordenada e links com href.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Crie uma lista ordenada, uma não ordenada e links com href.",
+  "desafio": "Faça uma página de materiais escolares com menu por âncoras e uma lista de passos.",
+  "criterios": [
+    "Links levam ao destino correto",
+    "Itens de lista dentro de li",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de listas, links e agrupamentos?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }

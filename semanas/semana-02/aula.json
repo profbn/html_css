@@ -1,5 +1,24 @@
 {
-  "titulo": "Estrutura HTML e títulos",
-  "objetivo": "Reconhecer doctype, head, body, títulos e parágrafos.",
-  "atividade": "Escreva uma apresentação pessoal com três títulos e dois parágrafos."
+  "titulo": "Estrutura HTML, títulos e parágrafos",
+  "objetivo": "Aprender estrutura html, títulos e parágrafos e aplicar o conhecimento em uma página web.",
+  "explicacao": "Um documento HTML5 começa com DOCTYPE. O elemento head guarda informações sobre a página; body guarda o conteúdo visível. Títulos h1 a h6 organizam seções.",
+  "orientacao": "Criar index.html com DOCTYPE, html lang, head, meta charset, title e body.",
+  "passos": [
+    "Leia a explicação e identifique o conceito principal.",
+    "Abra o exemplo HTML5 e o arquivo style.css desta semana.",
+    "Copie os arquivos para uma pasta no computador e teste no navegador.",
+    "Faça a atividade prática alterando o código e verifique o resultado."
+  ],
+  "atividade": "Criar index.html com DOCTYPE, html lang, head, meta charset, title e body.",
+  "desafio": "Crie uma página sobre sua futura profissão com um h1, dois h2, três parágrafos, quebra de linha e separador.",
+  "criterios": [
+    "Usar títulos em ordem lógica",
+    "Incluir meta charset e viewport",
+    "Testar no navegador antes de entregar"
+  ],
+  "perguntas": [
+    "Qual é a finalidade principal de estrutura html, títulos e parágrafos?",
+    "O que você modificou no exemplo para realizar a atividade?",
+    "Como conferir se a página continua legível e funcional?"
+  ]
 }
