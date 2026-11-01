@@ -1,0 +1,2 @@
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+    .topo{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.topo a{margin:0 8px}.hero{background:#dff6ec;padding:32px;border-radius:12px}.botao{display:inline-block;background:#14532d;color:#fff;padding:10px 18px;border-radius:6px}.cards{display:flex;flex-wrap:wrap;gap:12px}.cards article{background:#e0edf5;padding:25px;flex:1 1 120px}footer{padding:18px 0}

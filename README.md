@@ -33,58 +33,52 @@ Este repositório reúne materiais, atividades e projetos práticos da disciplin
 
 | Semana | Conteúdo principal |
 | --- | --- |
-| [01](./semanas/semana-01.html) | [Internet, Web, HTML e ambiente de desenvolvimento](./semanas/semana-01.html) |
-| [02](./semanas/semana-02.html) | [Estrutura HTML, títulos, parágrafos e quebras de linha](./semanas/semana-02.html) |
-| [03](./semanas/semana-03.html) | [Formatação de textos e imagens](./semanas/semana-03.html) |
-| [04](./semanas/semana-04.html) | [Listas, links e agrupamento de elementos](./semanas/semana-04.html) |
-| [05](./semanas/semana-05.html) | [Tabelas](./semanas/semana-05.html) |
-| [06](./semanas/semana-06.html) | [Formulários](./semanas/semana-06.html) |
-| [07](./semanas/semana-07.html) | [HTML5 e elementos semânticos](./semanas/semana-07.html) |
-| [08](./semanas/semana-08.html) | [Elementos de formatação de texto no HTML5](./semanas/semana-08.html) |
-| [09](./semanas/semana-09.html) | [Estruturação e acessibilidade de tabelas](./semanas/semana-09.html) |
-| [10](./semanas/semana-10.html) | [Áudio, vídeo e figuras](./semanas/semana-10.html) |
-| [11](./semanas/semana-11.html) | [Campos de formulário HTML5](./semanas/semana-11.html) |
-| [12](./semanas/semana-12.html) | [Introdução ao CSS; estilos inline, interno e externo](./semanas/semana-12.html) |
-| [13](./semanas/semana-13.html) | [Cores e imagens de fundo](./semanas/semana-13.html) |
-| [14](./semanas/semana-14.html) | [Fontes e formatação de texto](./semanas/semana-14.html) |
-| [15](./semanas/semana-15.html) | [Links e pseudoclasses](./semanas/semana-15.html) |
-| [16](./semanas/semana-16.html) | [Classes, IDs, agrupamento e bordas](./semanas/semana-16.html) |
-| [17](./semanas/semana-17.html) | [Box Model, margens, espaçamentos e flutuação](./semanas/semana-17.html) |
-| [18](./semanas/semana-18.html) | [Posicionamento de elementos](./semanas/semana-18.html) |
-| [19](./semanas/semana-19.html) | [Display e Flexbox](./semanas/semana-19.html) |
-| [20](./semanas/semana-20.html) | [Criação e revisão de uma landing page](./semanas/semana-20.html) |
+| [01](./semanas/semana-01/) | [Internet, Web, HTML e ambiente de desenvolvimento](./semanas/semana-01/) |
+| [02](./semanas/semana-02/) | [Estrutura HTML, títulos, parágrafos e quebras de linha](./semanas/semana-02/) |
+| [03](./semanas/semana-03/) | [Formatação de textos e imagens](./semanas/semana-03/) |
+| [04](./semanas/semana-04/) | [Listas, links e agrupamento de elementos](./semanas/semana-04/) |
+| [05](./semanas/semana-05/) | [Tabelas](./semanas/semana-05/) |
+| [06](./semanas/semana-06/) | [Formulários](./semanas/semana-06/) |
+| [07](./semanas/semana-07/) | [HTML5 e elementos semânticos](./semanas/semana-07/) |
+| [08](./semanas/semana-08/) | [Elementos de formatação de texto no HTML5](./semanas/semana-08/) |
+| [09](./semanas/semana-09/) | [Estruturação e acessibilidade de tabelas](./semanas/semana-09/) |
+| [10](./semanas/semana-10/) | [Áudio, vídeo e figuras](./semanas/semana-10/) |
+| [11](./semanas/semana-11/) | [Campos de formulário HTML5](./semanas/semana-11/) |
+| [12](./semanas/semana-12/) | [Introdução ao CSS; estilos inline, interno e externo](./semanas/semana-12/) |
+| [13](./semanas/semana-13/) | [Cores e imagens de fundo](./semanas/semana-13/) |
+| [14](./semanas/semana-14/) | [Fontes e formatação de texto](./semanas/semana-14/) |
+| [15](./semanas/semana-15/) | [Links e pseudoclasses](./semanas/semana-15/) |
+| [16](./semanas/semana-16/) | [Classes, IDs, agrupamento e bordas](./semanas/semana-16/) |
+| [17](./semanas/semana-17/) | [Box Model, margens, espaçamentos e flutuação](./semanas/semana-17/) |
+| [18](./semanas/semana-18/) | [Posicionamento de elementos](./semanas/semana-18/) |
+| [19](./semanas/semana-19/) | [Display e Flexbox](./semanas/semana-19/) |
+| [20](./semanas/semana-20/) | [Criação e revisão de uma landing page](./semanas/semana-20/) |
 
-## Arquitetura MVC adaptada ao GitHub Pages
+## Organização por semana — HTML5 e CSS3 sem código embutido
 
-O GitHub Pages é estático. Por isso, este projeto aplica a **separação de responsabilidades inspirada em MVC**, sem backend ou framework servidor:
-
-- **Model:** `models/semana-XX.json` — conteúdo e atividades das aulas.
-- **View:** `semanas/semana-XX.html` — estrutura e apresentação sem CSS ou JS embutidos.
-- **Controller:** `assets/js/aula-controller.js` — carrega os dados e os exemplos.
-- **Estilos externos:** `assets/css/aulas.css`, `style.css` e os arquivos CSS dos exemplos.
+Cada semana possui sua própria pasta, com os arquivos separados:
 
 ```text
-html_css/
-├── index.html
-├── style.css
-├── README.md
-├── assets/
-│   ├── css/aulas.css
-│   └── js/aula-controller.js
-├── models/
-│   └── semana-01.json ... semana-20.json
-├── semanas/
-│   └── semana-01.html ... semana-20.html
-├── exemplos/
-│   └── semana-01/ ... semana-20/
-│       ├── index.html
-│       └── style.css
-└── projeto-final/
-    ├── index.html
-    └── style.css
+semanas/
+  semana-01/
+    index.html       # página didática HTML5 (View)
+    style.css        # estilo da página didática
+    aula.json        # conteúdo e atividade (Model)
+    exemplo/
+      index.html     # exemplo HTML5 executável
+      style.css      # CSS3 do exemplo
+  semana-02/
+    ... 
+  semana-20/
+    ...
+assets/
+  js/
+    aula-controller.js  # Controller compartilhado
 ```
 
-**Observação:** MVC completo com controladores de servidor, persistência ou banco de dados requer uma hospedagem/backend; este repositório é uma versão estática para fins didáticos.
+**Como acessar:** clique no conteúdo da semana no cronograma; dentro de cada pasta, o CSS está em `style.css` e o CSS do exercício em `exemplo/style.css`. Nenhum CSS nem JavaScript foi embutido nas páginas das aulas.
+
+O GitHub Pages é estático. Essa organização usa **separação de responsabilidades inspirada em MVC**, sem backend; para MVC com servidor, seria necessária hospedagem compatível.
 
 ## Primeira página HTML5
 

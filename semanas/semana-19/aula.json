@@ -1,0 +1,5 @@
+{
+  "titulo": "Display e Flexbox",
+  "objetivo": "Distribuir elementos com display:flex, gap e justify-content.",
+  "atividade": "Crie uma fila de cartões que se ajuste em telas menores."
+}

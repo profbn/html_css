@@ -1,0 +1,5 @@
+{
+  "titulo": "Introdução ao CSS",
+  "objetivo": "Entender seletor, propriedade, valor e CSS interno/externo.",
+  "atividade": "Separe os estilos em um arquivo style.css."
+}

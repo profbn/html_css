@@ -1,24 +1,30 @@
 "use strict";
-// Controlador das aulas estáticas: carrega o modelo JSON e os códigos separados.
 document.addEventListener("DOMContentLoaded", async () => {
-  const n = document.body.dataset.semana;
-  const byId = id => document.getElementById(id);
-  const base = "../exemplos/semana-" + n + "/";
-  const model = "../models/semana-" + n + ".json";
+  const numero=document.body.dataset.semana;
+  const el=id=>document.getElementById(id);
   try {
-    const [m,h,c] = await Promise.all([fetch(model),fetch(base+"index.html"),fetch(base+"style.css")]);
-    if (![m,h,c].every(r=>r.ok)) throw new Error("Arquivo não localizado.");
-    const data=await m.json();
-    const html=await h.text(),css=await c.text();
-    byId("titulo").textContent="Semana "+n+" — "+data.titulo;
-    document.title="Semana "+n+" — "+data.titulo+" | HTML5 e CSS3";
-    byId("objetivo").textContent=data.objetivo;
-    byId("atividade").textContent=data.atividade;
-    byId("codigo-html").textContent=html;
-    byId("codigo-css").textContent=css;
-    byId("previa").src=base+"index.html";
-    async function copiar(text,label){try{await navigator.clipboard.writeText(text);byId("status").textContent=label+" copiado."}catch(_){byId("status").textContent="Copie o texto selecionando o código acima."}}
-    byId("copiar-html").addEventListener("click",()=>copiar(html,"HTML"));
-    byId("copiar-css").addEventListener("click",()=>copiar(css,"CSS"));
-  } catch(err){byId("objetivo").textContent="Não foi possível carregar a aula. Confira a conexão e os arquivos no repositório.";byId("status").textContent=String(err);}
+    const [modelo,htmlResposta,cssResposta]=await Promise.all([
+      fetch("./aula.json"),fetch("./exemplo/index.html"),fetch("./exemplo/style.css")
+    ]);
+    if(!modelo.ok||!htmlResposta.ok||!cssResposta.ok) throw new Error("Arquivos da semana não encontrados");
+    const dados=await modelo.json();
+    const codigoHtml=await htmlResposta.text();
+    const codigoCss=await cssResposta.text();
+    el("titulo").textContent="Semana "+numero+" — "+dados.titulo;
+    document.title=dados.titulo+" | HTML5 e CSS3";
+    el("objetivo").textContent=dados.objetivo;
+    el("atividade").textContent=dados.atividade;
+    el("codigo-html").textContent=codigoHtml;
+    el("codigo-css").textContent=codigoCss;
+    el("previa").src="./exemplo/index.html";
+    async function copiar(texto,tipo){
+      try { await navigator.clipboard.writeText(texto);el("status").textContent=tipo+" copiado."; }
+      catch { el("status").textContent="Selecione o código acima para copiar."; }
+    }
+    el("copiar-html").addEventListener("click",()=>copiar(codigoHtml,"HTML"));
+    el("copiar-css").addEventListener("click",()=>copiar(codigoCss,"CSS"));
+  } catch(error){
+    el("objetivo").textContent="Não foi possível carregar esta aula.";
+    el("status").textContent=error.message;
+  }
 });

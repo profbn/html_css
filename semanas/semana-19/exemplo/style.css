@@ -1,0 +1,2 @@
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+    .grade{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}.item{flex:1 1 140px;padding:24px;background:#ddf3ef;border:2px solid #16675a;text-align:center}

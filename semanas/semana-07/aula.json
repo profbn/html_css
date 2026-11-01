@@ -1,0 +1,5 @@
+{
+  "titulo": "HTML5 semântico",
+  "objetivo": "Usar header, nav, main, article, aside e footer.",
+  "atividade": "Substitua divs genéricas por elementos semânticos adequados."
+}
