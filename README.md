@@ -1,4 +1,4 @@
-# HTML e CSS — 2026
+# HTML5 e CSS3 — 2026
 
 **Disciplina:** HTML e CSS  
 **Eixo tecnológico:** Informação e Comunicação  
@@ -54,22 +54,39 @@ Este repositório reúne materiais, atividades e projetos práticos da disciplin
 | [19](./semanas/semana-19.html) | [Display e Flexbox](./semanas/semana-19.html) |
 | [20](./semanas/semana-20.html) | [Criação e revisão de uma landing page](./semanas/semana-20.html) |
 
-## Organização sugerida do repositório
+## Arquitetura MVC adaptada ao GitHub Pages
+
+O GitHub Pages é estático. Por isso, este projeto aplica a **separação de responsabilidades inspirada em MVC**, sem backend ou framework servidor:
+
+- **Model:** `models/semana-XX.json` — conteúdo e atividades das aulas.
+- **View:** `semanas/semana-XX.html` — estrutura e apresentação sem CSS ou JS embutidos.
+- **Controller:** `assets/js/aula-controller.js` — carrega os dados e os exemplos.
+- **Estilos externos:** `assets/css/aulas.css`, `style.css` e os arquivos CSS dos exemplos.
 
 ```text
 html_css/
+├── index.html
+├── style.css
 ├── README.md
-├── aulas/
-│   ├── semana-01/
-│   ├── semana-02/
-│   └── ...
-├── atividades/
+├── assets/
+│   ├── css/aulas.css
+│   └── js/aula-controller.js
+├── models/
+│   └── semana-01.json ... semana-20.json
+├── semanas/
+│   └── semana-01.html ... semana-20.html
+├── exemplos/
+│   └── semana-01/ ... semana-20/
+│       ├── index.html
+│       └── style.css
 └── projeto-final/
+    ├── index.html
+    └── style.css
 ```
 
-> As pastas acima são **uma sugestão** e ainda não foram criadas no repositório.
+**Observação:** MVC completo com controladores de servidor, persistência ou banco de dados requer uma hospedagem/backend; este repositório é uma versão estática para fins didáticos.
 
-## Primeira página HTML
+## Primeira página HTML5
 
 Crie um arquivo chamado `index.html`:
 
