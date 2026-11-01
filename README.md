@@ -125,9 +125,23 @@ Abra o `index.html` no navegador para visualizar o resultado.
 - Evite enviar senhas, chaves privadas ou informações pessoais.
 - Faça commits frequentes e descreva o que mudou.
 
-## Projeto final
+## Projeto final — landing page publicada gratuitamente
 
-Desenvolver uma **landing page** utilizando HTML5 e CSS. A página deve apresentar conteúdo organizado, navegação compreensível e estilização coerente com os conteúdos trabalhados em aula.
+**[Abrir o código HTML do projeto](./projeto-final/index.html)** · **[Abrir o CSS](./projeto-final/style.css)**
+
+A pasta `projeto-final/` contém uma landing page de referência, responsiva e com marcação semântica. Cada equipe deve personalizar o conteúdo, as cores, a identidade visual e as seções, preservando acessibilidade e legibilidade.
+
+### Como publicar com GitHub Pages
+
+1. No seu repositório, abra **Settings → Pages**.
+2. Em **Build and deployment**, selecione **Deploy from a branch**.
+3. Escolha a branch **main** e a pasta **/(root)**, depois clique em **Save**.
+4. Após a publicação estar ativa, acesse o endereço informado na própria tela do GitHub Pages.
+5. O projeto final ficará no caminho **/projeto-final/** do site publicado.
+
+**Entrega:** envie o endereço do site e o link do código no GitHub, conforme a orientação do professor.
+
+> O GitHub Pages publica páginas estáticas (HTML/CSS/JavaScript). Não hospeda diretamente aplicações que dependam de PHP ou banco de dados do lado do servidor.
 
 ---
 
