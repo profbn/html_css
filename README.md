@@ -6,6 +6,13 @@
 **Organização do escopo:** 20 semanas, 60 aulas de 50 minutos  
 **Instituição:** EEEP Professor Antônio Valmir da Silva — Ceará
 
+
+## 📚 Aulas práticas em HTML
+
+**[Abrir o índice das 20 semanas](./index.html)** · **[Ver arquivos das semanas](./semanas/)**
+
+Cada página tem objetivo, exemplo de código, prévia visual e atividade. Para visualizar no navegador, baixe o arquivo HTML e abra localmente; a visualização direta do arquivo no GitHub mostra o código-fonte.
+
 ## Apresentação
 Este repositório reúne materiais, atividades e projetos práticos da disciplina HTML e CSS. O objetivo é aprender a estruturar páginas com HTML e HTML5 e a criar estilos e layouts com CSS.
 
