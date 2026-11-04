@@ -1,4 +1,4 @@
-# HTML5 e CSS3 — 2026
+# HTML5 e CSS3
 
 **Disciplina:** HTML e CSS  
 **Eixo tecnológico:** Informação e Comunicação  
